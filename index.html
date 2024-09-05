@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="logo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+				<img src="logo.png" alt="Medly Logo" class="logo">
+            </div>
+        </header>
+        <main>
+            <section class="assistant-section">
+                <!--div class="assistant-avatar"></div-->
+				<div class=check-in></div>
+				<h1>Check-In</h1>
+                <p class="tagline">AI Voice Agent</p>
+                <div class="button-container">
+                    <button id="toggleCall" class="btn btn-primary">Start Call</button>
+                </div>
+                <div id="status" class="status">Ready to start</div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="app.js"></script>
+   
+</body>
+</html>
