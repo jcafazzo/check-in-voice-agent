@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             try {
                 await navigator.mediaDevices.getUserMedia({ audio: true });
-                await vapi.start('882a67c7-8862-4a9d-900f-506161e196ba');
+                await vapi.start('79638fd6-5834-4514-9379-48aed984d4ee');
                 toggleCallButton.textContent = 'Stop Call';
                 statusDiv.textContent = 'Call started';
             } catch (error) {
